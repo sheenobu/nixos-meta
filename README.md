@@ -6,6 +6,11 @@ Some meta information for NixOS work
 <br/>
 <a href="https://liberapay.com/sheenobu/donate"><img width="90px" src="https://liberapay.com/assets/widgets/donate.svg">
 
-## Links
+## Management
  
  * [Trello - NixOS](https://trello.com/b/oW6JbCi6)
+
+## Code
+
+ * [NixOS configurations](https://github.com/sheenobu/rcfiles/tree/master/nixos)
+ * [NixOS shortcuts](https://github.com/sheenobu/rcfiles/tree/master/bashrc/os/nix)
