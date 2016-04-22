@@ -14,3 +14,9 @@ Some meta information for NixOS work
 
  * [NixOS configurations](https://github.com/sheenobu/rcfiles/tree/master/nixos)
  * [NixOS shortcuts](https://github.com/sheenobu/rcfiles/tree/master/bashrc/os/nix)
+
+## Useful commands
+
+Building/testing a package:
+
+    nix-build -I folder-containing-nixpkgs '<nixpkgs>' -A packageExpression
