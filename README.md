@@ -15,8 +15,17 @@ Some meta information for NixOS work
  * [NixOS configurations](https://github.com/sheenobu/rcfiles/tree/master/nixos)
  * [NixOS shortcuts](https://github.com/sheenobu/rcfiles/tree/master/bashrc/os/nix)
 
+## Blog
+
+ * [NixOS Recipes: ELK Stack](https://sheenobu.net/nixos-recipes/elk.html)
+ * [NixOS Recipes: vscode backport to 16.03](https://sheenobu.net/nixos-recipes/vscode.html)
+
 ## Useful commands
 
 Building/testing a package:
 
     nix-build -I folder-containing-nixpkgs '<nixpkgs>' -A packageExpression
+
+Installing a custom package:
+
+    nix-env -f nixpkgs/ ...
